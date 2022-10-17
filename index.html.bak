@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Frooge CV</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<link href="https:fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
 	<script defer src="js/main.js"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis lectus metus, quis cursus nunc suscipit in. Aliquam a placerat urna, eu condimentum magna.  Sed orci tellus, euismod aliquet eros eget, molestie sodales elit. Ut eget dolor vitae justo euismod convallis. Duis at volutpat massa. Vestibulum ac tortor eget sapien.
 			</p>
 			<div class="images">
-				<a href="https://github.com/">
+				<a href="https://github.com/ForrestFrooge">
 					<img alt="github_logo" class="icon" src="assets/github_logo.png">
 				</a>
 				<a href="https://www.instagram.com/">
