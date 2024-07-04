@@ -72,16 +72,16 @@ export default function Home() {
 
         <section className="flex flex-row">
 
-          <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]" onClick={() => "location.href = 'https://www.youtube.com';"} >
-            <EvervaultCard text="about me"/>
-          </div>
+            <button className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem] w-[25rem]"  onClick={() => location.href = "/about"}>
+              <EvervaultCard text="about me"/>
+            </button>
 
-          <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
-            <EvervaultCard text="work"/>
-          </div>
-          <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
-            <EvervaultCard text="contact"/>
-          </div>
+            <button className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem] w-[25rem]" onClick={() => location.href = "/work"}>
+              <EvervaultCard text="work"/>
+            </button>
+            <button className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem] w-[25rem]" onClick={() => location.href = "/contact"}>
+              <EvervaultCard text="contact"/>
+            </button>
 
         </section>
     </div>
