@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 import { BackgroundBeams } from "@/components/ui/background-beams";
@@ -56,7 +58,6 @@ export default function Home() {
   return (
     <div>
         <BackgroundBeams />
-
         <div className="flex flex-col" style={{justifyContent : "center", alignContent:"center",alignItems:"center",paddingBottom:"5vh",paddingTop:"10vh"}}>
           <p className="font-bold text-xl md:text-9xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
             FROOGE
@@ -70,10 +71,11 @@ export default function Home() {
         </div>
 
         <section className="flex flex-row">
-          
-          <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
+
+          <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]" onClick={() => "location.href = 'https://www.youtube.com';"} >
             <EvervaultCard text="about me"/>
           </div>
+
           <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
             <EvervaultCard text="work"/>
           </div>
