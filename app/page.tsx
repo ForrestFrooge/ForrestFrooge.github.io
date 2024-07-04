@@ -70,6 +70,7 @@ export default function Home() {
         </div>
 
         <section className="flex flex-row">
+          
           <div className="flex flex-col items-start max-w-sm mx-auto p-4 relative h-[30rem]">
             <EvervaultCard text="about me"/>
           </div>
