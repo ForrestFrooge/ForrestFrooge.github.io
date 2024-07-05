@@ -9,28 +9,6 @@ import { FlipWords } from "@/components/ui/flip-words";
 
 
 export default function Home() {
-  const words : Array<{text: string; className: string;}>	= [
-    {
-      text: "Programming",
-      className:""
-    },
-    {
-      text: "your",
-      className:""
-    },
-    {
-      text: "ideas",
-      className:""
-    },
-    {
-      text:"to",
-      className:""
-    },
-    {
-      text: "LIFE",
-      className: "text-blue-500 dark:text-blue-500",
-    },
-  ];
 
   const words2 : string[] = [
     "front-end",
@@ -62,7 +40,6 @@ export default function Home() {
           <p className="font-bold text-xl md:text-9xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
             FROOGE
           </p>
-          <TypewriterEffectSmooth words={words}/>
           <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
             Here to build your
             <FlipWords words={words2} duration={1000}/>
